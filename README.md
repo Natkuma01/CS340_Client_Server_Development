@@ -5,7 +5,7 @@ The project is developed for an innovative international rescue animal training 
 
 <br>
 
-### Required Functionally
+### Required Functionally ⚙️
 1. Users can filter animals by rescue type: 
 * Water Rescue
 * Mountain or Wilderness Rescue
@@ -22,7 +22,7 @@ The project is developed for an innovative international rescue animal training 
 
 <br>
 
-### Screenshots
+### Screenshots 🩻
 Initial Dashboard View (Unfiltered): 
 <br>
 <img width="524" height="273" alt="image" src="https://github.com/user-attachments/assets/8f9371f6-5f73-499e-9893-9cb245112527" />
@@ -39,7 +39,7 @@ Pie chart:
 <img width="600" height="280" alt="Screenshot 2025-10-21 at 5 41 11 PM" src="https://github.com/user-attachments/assets/178619c1-dcd8-4b1c-839d-8207da9312b8" />
 <br>
 
-### Tools and Technologies
+### Tools and Technologies 🪛
 Language: **Python** – core programming and logic<br>
 Database: **MongoDB** – stores and retrieves animal records<br>
 Framework: **Dash** – builds interactive web dashboards<br>
@@ -49,7 +49,7 @@ Mapping: **Leaflet** – displays animal locations on a map
 
 <br>
 
-### Why MongoDB?
+### Why MongoDB? 
 * MongoDB is highly flexible and strongly integrates with Python
 * Stores animal data in JSON-like documents, ideal for different field types
 * Integrates seamlessly with Python via the pymongo library
@@ -63,7 +63,7 @@ Mapping: **Leaflet** – displays animal locations on a map
 * Provides ready-to-use UI components such as radio items and data tables
 * Support callback functions for creating a responsive user experience
 
-### Project Steps
+### Project Steps 
 1. Connected MongoDB database using a custom CRUD Python Module
 2. Retrieved data from the “aac” collection with the read() method
 3. Cleaned and formatted the retrieved records using pandas
@@ -75,7 +75,7 @@ Mapping: **Leaflet** – displays animal locations on a map
 9. Test all functionality
 1. Capture screenshots for documentation
 
-### Challenges
+### Challenges 🚀
 One of the biggest challenges was achieving a clean and balanced layout. While the logic and data queries were relatively straightforward, the styling process took significant time and experimentation. Even though some layout code was provided, getting the map and pie chart to properly align side by side didn’t go as smoothly as expected. At first, the components kept overlapping or appearing misaligned. It took many rounds of trial and error, tweaking widths, adjusting padding, and refining the layout structure, before everything displayed neatly and proportionally. Another challenge I ran into was capturing clear screenshots of the dashboard. By default, when running the app in Jupyter, the output appears in a small, scrollable box, which made it difficult to take screenshots that clearly showed the charts and tables. To solve this, I researched online and discovered that I could run the dashboard in external mode and specify a custom port. This allowed me to open the dashboard in a full browser window, providing a larger, more readable view for screenshots. It made the documentation much cleaner and ensured that all elements, including the map and charts, were fully visible.
 
 <br>
